@@ -344,8 +344,12 @@
 
     }); // end: document ready
 
-    $(window).on('resize', function () { // Start: Window Resize
+    $(window).on('resize orientationchange', function () { // Start: Window Resize
         ace_header_init(ace.header.head, ace.header.col1, ace.header.col2, ace.header.col3);
+        var pf_grid_resize = $('.pf-grid');
+        if (pf_grid_resize.length && pf_grid_resize.data('isotope')) {
+            pf_grid_resize.isotope('layout');
+        }
     }); // End: Window Resize
 	
 	$(window).on('load', function () { // Start: Window Load

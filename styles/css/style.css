@@ -6625,3 +6625,175 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     height: 180px; /* 设置div的高度 */
 }
+
+/* Mobile responsive (GitHub Pages deploys with style.css) */
+@media (max-width: 992px) {
+    .ace-card-on .ace-container-shift {
+        margin-left: 0;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    #ace-card {
+        position: relative;
+        float: none;
+        width: auto;
+        max-width: 320px;
+        margin: 0 auto 24px;
+    }
+
+    .ace-tab-nav-on .ace-paper-stock {
+        margin-right: 0;
+    }
+
+    .ace-paper {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .ace-container,
+    .ace-card-inner,
+    .ace-card-footer {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .ace-wrapper {
+        overflow-x: hidden;
+    }
+
+    .section {
+        margin-bottom: 1.75em;
+    }
+
+    .title-thin {
+        font-size: 1.35rem;
+    }
+
+    .basic-table {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .basic-table tr,
+    .basic-table td {
+        display: block;
+        width: 100%;
+        padding: 6px 0;
+        box-sizing: border-box;
+    }
+
+    .basic-table tr {
+        margin-bottom: 4px;
+    }
+
+    .basic-value {
+        word-break: break-all;
+    }
+
+    .professional-ul {
+        padding-left: 1.1em;
+        padding-right: 0;
+    }
+
+    .professional-ul li {
+        line-height: 1.65;
+        word-break: break-word;
+        overflow-wrap: anywhere;
+        margin-bottom: 0.35em;
+    }
+
+    .professional-value {
+        font-size: 15px;
+    }
+
+    .education {
+        margin-left: 0;
+    }
+
+    .education-box {
+        padding-left: 18px;
+        padding-right: 0;
+        margin-bottom: 28px;
+    }
+
+    .education-date {
+        left: 0;
+        margin-left: 0;
+        margin-bottom: 10px;
+        width: auto;
+        max-width: 100%;
+        font-size: 0.75em;
+        display: inline-block;
+    }
+
+    .education-date span {
+        white-space: normal;
+    }
+
+    .education-job {
+        font-size: 1.125rem;
+        line-height: 1.35;
+        word-break: break-word;
+        margin: 0 0 6px;
+    }
+
+    .education-company {
+        font-size: 0.95rem;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .education-description {
+        font-size: 0.9rem;
+        line-height: 1.6;
+        text-align: left;
+        word-break: break-word;
+    }
+
+    .pf-grid-item,
+    .pf-grid-sizer {
+        width: 100% !important;
+    }
+
+    .pf-grid-item {
+        margin-bottom: 12px;
+    }
+
+    .portfolio-figure img {
+        width: 100%;
+        height: auto;
+    }
+
+    #ace-footer .ace-footer-cont p {
+        font-size: 0.8rem;
+        line-height: 1.55;
+        padding: 0 4px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ace-paper {
+        padding-top: 24px;
+        padding-bottom: 28px;
+    }
+
+    #ace-card h1 {
+        font-size: 1.35rem;
+    }
+
+    .ace-card-footer {
+        padding: 24px 20px;
+    }
+
+    .ace-card-footer .btn {
+        font-size: 14px;
+    }
+}
