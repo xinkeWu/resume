@@ -1,0 +1,20 @@
+<section class="section brd-btm" id="experience">
+    <div class="row">
+        <div class="col-sm-12 clear-mrg">
+            <h2 class="title-thin text-muted">工作经历</h2>
+            <br />
+            <div class="education">
+                {% for experience in site.experiences %}
+                <div class="education-box">
+                    <time class="education-date">
+                        <span><strong class="text-upper">{{ experience.beginDate }}</strong> - <strong>{{ experience.endDate }}</strong></span>
+                    </time>
+                    <p class="education-job">{{ experience.job }}</p>
+                    <p class="education-company">{{ experience.firm }}</p>
+                    <p class="education-description">{{ experience.description }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section><!-- .section -->

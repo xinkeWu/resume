@@ -1,0 +1,77 @@
+# GitHub Pages 项目站：https://xinkewu.github.io/resume/
+url: "https://xinkewu.github.io"
+baseurl: "/resume"
+
+## 1、personal
+# 头像
+photo: '/styles/img/personal.png'
+# 姓名
+name: 吴新科
+# Gitee 码云（个人主页地址）
+gitee: https://gitee.com/wu-xinke/projects
+# CSDN 博客（个人主页地址）
+csdn: https://blog.csdn.net/weixin_51689532
+# WeChat 二维码
+wechat_qrcode: '/styles/img/wechat_qrcode.png'
+# QQ 二维码
+qq_qrcode: '/styles/img/qq_qrcode.png'
+# Word 简历
+resume_word: '/styles/resume/吴新科简历.doc'
+
+## 2、basic
+# 年龄
+age: 25岁
+# 性别
+sex: 男
+# 状态
+status: 离职（周内到岗）
+# 经验
+workAge: 3年
+# 手机
+phoneNumber: 1821177xxxx
+# 邮箱
+mail: wxk.cn@aliyun.com
+
+## 3、professional
+# 技术栈
+skills:
+  - '扎实的java基础，熟悉java核心类库与常用第三方库，java8新特性等;'
+  - '良好的并发编程基础，读过AQS源码，熟悉常用并发组件(如: 闭锁/信号量/ThreadLocal);'
+  - '良好的数据结构基础，读过Collection框架下的容器实现(如: 哈希表/线性表/栈/红黑树);'
+  - '熟悉JVM规范下的虚拟机的组成结构，内存模型，GC垃圾回收和实现算法;'
+  - '熟练SpringBoot、SpringMVC、Spring、Mybatis等主流框架，能快速上手新型框架读过SpringIOC源码，并自己实现过简易版;'
+  - '熟练使用Mysql，熟悉SQL调优，清楚索引实现原理;'
+  - '熟悉消息队列Activemq;'
+
+## 4、education
+# 学校名称
+school-name: 东北林业大学
+# 在校时间
+school-date: 2019-2023
+# 专业
+school-major: 软件工程
+# 学历层级
+school-class: 本科
+
+## 5、experience
+# 工作经历
+experiences:
+  - beginDate: '2022.1'
+    endDate: '至今'
+    job: '开发工程师'
+    firm: '北京科技发展有限责任公司'
+    description: '主导业务、技术改造类项目的架构设计、分析和设计工作，承担核心功能；跟进核心项目，确保项目进度和质量；针对新人、普通开发人员进行有效辅导，进行技术分享，帮助其快速成长；主导团队开发人员code review工作，并能提供性能优化、安全性建议。'
+  - beginDate: '2021.3'
+    endDate: '2022.1'
+    job: '后端开发工程师'
+    firm: '河南科技发展有限责任公司'
+    description: '负责所属模块的代码开发，调试与维护工作；负责制定项目规划，攻克项目技术难点，保证项目按时交付；协助并完成其他的技术任务开发。'
+
+## 6、
+
+## 7、personal_project
+
+# 包含以点开头的目录，供 Chrome DevTools 探测，消除本地 404 日志
+include:
+  - .well-known
+

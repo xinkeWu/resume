@@ -1,0 +1,14 @@
+<section class="section brd-btm" id="professional">
+    <div class="row">
+        <div class="col-sm-12 clear-mrg">
+            <h2 class="title-thin text-muted">技术栈</h2>
+            <div class="clear-mrg">
+                <ul class="professional-ul">
+                    {% for skill in site.skills %}
+                    <li class="professional-value">{{ skill }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div><!-- .col-sm-6 -->
+    </div><!-- .row -->
+</section><!-- .section -->
