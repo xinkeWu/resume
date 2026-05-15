@@ -21,14 +21,10 @@ resume_word: '/styles/resume/吴新科简历.doc'
 ## 2、basic
 # 年龄
 age: 25岁
-# 性别
-sex: 男
 # 状态
 status: 离职（周内到岗）
 # 经验
 workAge: 3年
-# 手机
-phoneNumber: 1821177xxxx
 # 邮箱
 mail: wxk.cn@aliyun.com
 

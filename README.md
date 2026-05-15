@@ -32,7 +32,7 @@
 
 ### 2. 基本信息（`## 2、basic`）
 
-- `age`、`sex`、`status`、`workAge`、`phoneNumber`、`mail` 等对应「基本信息」表格。
+- `age`、`status`、`workAge`、`mail` 等对应「基本信息」表格。
 
 ### 3. 技术栈（`## 3、professional`）
 
